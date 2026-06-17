@@ -35,4 +35,4 @@ I build interactive playable ads and lightweight game experiences for mobile ad 
 
 ## 🐍 Contribution Snake
 
-![Snake animation](https://github.com/truongk23k/truongk23k/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/truongk23k/truongk23k/output/github-contribution-grid-snake.svg)
