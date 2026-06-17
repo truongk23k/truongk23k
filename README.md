@@ -1,16 +1,18 @@
-## Hi there 👋
+# Hi there 👋 I'm Truong
 
-<!--
-**truongk23k/truongk23k** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎮 Playable Ads Developer | Unity Developer
 
-Here are some ideas to get you started:
+I build interactive playable ads and lightweight game experiences for mobile ad networks, focusing on smooth gameplay, optimized performance, and engaging user experiences.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Currently focused on:
+
+* Playable Ads Production
+* Unity Development
+* WebGL Optimization
+* Performance Optimization
+
+## 📫 Contact
+
+📧 Email: truongk23k@gmail.com  
+💼 LinkedIn: https://www.linkedin.com/in/van-truong-lai-b50538222/  
+🌐 Portfolio: Coming soon...
