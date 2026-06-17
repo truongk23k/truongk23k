@@ -31,7 +31,7 @@ I build interactive playable ads and lightweight game experiences for mobile ad 
 
 📧 Email: truongk23k@gmail.com  
 💼 LinkedIn: https://www.linkedin.com/in/van-truong-lai-b50538222/  
-🌐 Portfolio: Coming soon...
+🌐 Portfolio: https://truong-portfolio.vercel.app/
 
 ## 🐍 Contribution Snake
 
