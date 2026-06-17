@@ -1,3 +1,5 @@
+![Banner](./banner.png)
+
 # Hi there 👋 I'm Truong
 
 🎮 Playable Ads Developer | Unity Developer
