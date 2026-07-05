@@ -21,9 +21,9 @@ I build interactive playable ads and lightweight game experiences for mobile ad 
 
 ## 📊 GitHub Stats
 
-![Stats](https://github-readme-stats.vercel.app/api?username=truongk23k&show_icons=true&theme=tokyonight)
+![Stats](https://raw.githubusercontent.com/truongk23k/truongk23k/main/github-stats.svg)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=truongk23k&layout=compact&theme=tokyonight)
+![Top Langs](https://raw.githubusercontent.com/truongk23k/truongk23k/main/top-langs.svg)
 
 ## 📫 Contact
 
