@@ -7,6 +7,9 @@ TOKEN = os.environ['GITHUB_TOKEN']
 USERNAME = os.environ.get('GITHUB_USERNAME', 'truongk23k')
 HEADERS = {'Authorization': f'Bearer {TOKEN}', 'Content-Type': 'application/json'}
 
+# Languages to exclude from the chart (build outputs, markup, etc.)
+EXCLUDE_LANGS = {'HTML', 'CSS'}
+
 # Tokyo Night theme
 BG = '#1a1b27'
 BORDER = '#414868'
@@ -196,11 +199,13 @@ def main():
     total_issues = user.get('issues', {}).get('totalCount', 0)
     repo_count = len(repos)
 
-    # Aggregate languages across all repos
+    # Aggregate languages across all repos (excluding build outputs / markup)
     lang_totals = {}
     for repo in repos:
         for edge in repo.get('languages', {}).get('edges', []):
             name = edge['node']['name']
+            if name in EXCLUDE_LANGS:
+                continue
             color = edge['node'].get('color') or '#858585'
             size = edge.get('size', 0)
             if name not in lang_totals:
