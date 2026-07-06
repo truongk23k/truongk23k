@@ -2,7 +2,7 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "13 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -13,15 +13,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
       - name: Generate snake
         uses: Platane/snk@v3
         with:
           github_user_name: truongk23k
           outputs: github-contribution-grid-snake.svg
 
+      - name: Stamp update timestamp
+        run: python .github/scripts/add_snake_timestamp.py github-contribution-grid-snake.svg
+
+      - name: Prepare output dir
+        run: |
+          mkdir -p dist
+          cp github-contribution-grid-snake.svg dist/
+
       - name: Push to output branch
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: output
-          publish_dir: .
+          publish_dir: ./dist
