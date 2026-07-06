@@ -27,20 +27,19 @@ def add_timestamp(path):
         vb_x, vb_y, vb_w, vb_h = (float(v) for v in vb_match.groups())
         new_vb = f'viewBox="{vb_x:g} {vb_y:g} {vb_w:g} {vb_h + FOOTER_H:g}"'
         new_tag = new_tag[:vb_match.start()] + new_vb + new_tag[vb_match.end():]
-        center_x = vb_x + vb_w / 2
+        left_x = vb_x + 4
         text_y = vb_y + vb_h + 14
     else:
-        width = float(re.search(r'width="([\d.]+)"', tag).group(1))
-        center_x = width / 2
+        left_x = 4
         text_y = height + 14
 
     svg = svg[:tag_match.start()] + new_tag + svg[tag_match.end():]
 
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
     text_el = (
-        f'<text x="{center_x:g}" y="{text_y:g}" '
+        f'<text x="{left_x:g}" y="{text_y:g}" '
         'font-family="Segoe UI, Ubuntu, sans-serif" font-size="11" '
-        f'fill="#888888" text-anchor="middle">Updated: {timestamp}</text>'
+        f'fill="#888888" text-anchor="start">Updated: {timestamp}</text>'
     )
     svg = svg.replace('</svg>', text_el + '</svg>', 1)
 
