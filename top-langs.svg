@@ -8,14 +8,14 @@
   <rect x="0.5" y="0.5" width="299" height="211" rx="4.5" fill="#1a1b27" stroke="#414868"/>
   <text x="25" y="35" class="title">Most Used Languages</text>
   <rect x="20" y="48" width="260" height="8" rx="4" fill="#414868"/>
-  <rect x="20.0" y="48" width="227.4" height="8" fill="#178600"/>
-  <rect x="247.4" y="48" width="20.8" height="8" fill="#222c37"/>
-  <rect x="268.1" y="48" width="6.7" height="8" fill="#aace60"/>
-  <rect x="274.9" y="48" width="5.1" height="8" fill="#3178c6"/>
+  <rect x="20.0" y="48" width="227.2" height="8" fill="#178600"/>
+  <rect x="247.2" y="48" width="20.7" height="8" fill="#222c37"/>
+  <rect x="267.9" y="48" width="6.7" height="8" fill="#aace60"/>
+  <rect x="274.7" y="48" width="5.3" height="8" fill="#3178c6"/>
   <rect x="280.0" y="48" width="0.5" height="8" fill="#f1e05a"/>
   <circle cx="30" cy="75" r="5" fill="#178600"/>
   <text x="42" y="78" class="label">C#</text>
-  <text x="285" y="78" text-anchor="end" class="pct">87.5%</text>
+  <text x="285" y="78" text-anchor="end" class="pct">87.4%</text>
   <circle cx="30" cy="97" r="5" fill="#222c37"/>
   <text x="42" y="100" class="label">ShaderLab</text>
   <text x="285" y="100" text-anchor="end" class="pct">8.0%</text>
@@ -29,5 +29,5 @@
   <text x="42" y="166" class="label">JavaScript</text>
   <text x="285" y="166" text-anchor="end" class="pct">0.0%</text>
 
-  <text x="10" y="207" class="note">Updated: 2026-07-07 10:02 UTC</text>
+  <text x="10" y="207" class="note">Updated: 2026-07-08 08:46 UTC</text>
 </svg>
