@@ -8,26 +8,26 @@
   <rect x="0.5" y="0.5" width="299" height="211" rx="4.5" fill="#1a1b27" stroke="#414868"/>
   <text x="25" y="35" class="title">Most Used Languages</text>
   <rect x="20" y="48" width="260" height="8" rx="4" fill="#414868"/>
-  <rect x="20.0" y="48" width="207.8" height="8" fill="#7355dd"/>
-  <rect x="227.8" y="48" width="23.6" height="8" fill="#3178c6"/>
-  <rect x="251.4" y="48" width="21.4" height="8" fill="#222c37"/>
-  <rect x="272.8" y="48" width="6.4" height="8" fill="#aace60"/>
+  <rect x="20.0" y="48" width="199.5" height="8" fill="#7355dd"/>
+  <rect x="219.5" y="48" width="33.0" height="8" fill="#3178c6"/>
+  <rect x="252.5" y="48" width="20.5" height="8" fill="#222c37"/>
+  <rect x="273.0" y="48" width="6.2" height="8" fill="#aace60"/>
   <rect x="279.2" y="48" width="0.8" height="8" fill="#f1e05a"/>
   <circle cx="30" cy="75" r="5" fill="#7355dd"/>
   <text x="42" y="78" class="label">C#</text>
-  <text x="285" y="78" text-anchor="end" class="pct">79.9%</text>
+  <text x="285" y="78" text-anchor="end" class="pct">76.7%</text>
   <circle cx="30" cy="97" r="5" fill="#3178c6"/>
   <text x="42" y="100" class="label">TypeScript</text>
-  <text x="285" y="100" text-anchor="end" class="pct">9.1%</text>
+  <text x="285" y="100" text-anchor="end" class="pct">12.7%</text>
   <circle cx="30" cy="119" r="5" fill="#222c37"/>
   <text x="42" y="122" class="label">ShaderLab</text>
-  <text x="285" y="122" text-anchor="end" class="pct">8.2%</text>
+  <text x="285" y="122" text-anchor="end" class="pct">7.9%</text>
   <circle cx="30" cy="141" r="5" fill="#aace60"/>
   <text x="42" y="144" class="label">HLSL</text>
-  <text x="285" y="144" text-anchor="end" class="pct">2.5%</text>
+  <text x="285" y="144" text-anchor="end" class="pct">2.4%</text>
   <circle cx="30" cy="163" r="5" fill="#f1e05a"/>
   <text x="42" y="166" class="label">JavaScript</text>
   <text x="285" y="166" text-anchor="end" class="pct">0.3%</text>
 
-  <text x="10" y="207" class="note">Updated: 2026-11-08 13:34 UTC</text>
+  <text x="10" y="207" class="note">Updated: 2026-11-09 16:31 UTC</text>
 </svg>
